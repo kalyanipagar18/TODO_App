@@ -28,12 +28,12 @@ body {
   grid-row-gap: 25px;
 }
 
-/* styling todo input */
+
 .todo-input,
 .todo-lists {
-  border: 4px solid #4ae9e1;
+  border: 4px solid #000000;
   border-radius: 1rem;
-  background-color: #444444;
+  background-color: #d5d2d2;
   padding: 1rem;
   text-align: center;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5), -2px -4px 10px rgba(0, 0, 0, 0.5);
@@ -43,7 +43,7 @@ body {
   font-size: 4rem;
   padding: 0.8rem;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
 }
 
 .show-input-action,
@@ -65,24 +65,25 @@ body {
 .todo-form #input-todo,
 #todo-button {
   font-size: 2rem;
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   padding: 0.7rem;
   margin: 2rem auto;
   border: none;
   display: block;
+  background-color: #a23559;
 }
 
 .todo-form #input-todo {
   width: 80%;
   background-color: transparent;
-  border-bottom: 2px solid #4ae9e1;
+  border-bottom: 2px solid #000000;
 }
 
 .todo-form #todo-button {
-  width: 100px;
+  width: 150px;
   border-radius: 0.5rem;
-  background-color: #3d8750;
+  background-color: #22a944;
   font-weight: bold;
   cursor: pointer;
   letter-spacing: 2px;
@@ -90,15 +91,14 @@ body {
 }
 
 .todo-form #todo-button:hover {
-  background-color: #ff8c00;
+  background-color: #0eec80;
   color: black;
 }
 
-/* styling todo lists  */
 .todo-lists h2 {
   font-size: 3.5rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000000;
   padding: 0.7rem;
 }
 
@@ -118,16 +118,15 @@ body {
   border-radius: 0.5rem;
   color: #fff;
   cursor: pointer;
-  background-color: #c01d1d;
+  background-color: #e11010;
   transition: all 0.3s;
 }
 
 .todo-lists .btn:hover {
-  background-color: #ffd700;
+  background-color: #c65f1f;
   color: black;
 }
 
-/* styling list element */
 .ul-list {
   margin: 2rem auto;
 }
@@ -167,7 +166,6 @@ body {
   background-color: #f0ffff;
 }
 
-/* style making for javascript manipulation */
 .show-alert-green {
   background-color: #7fcd71;
   display: block;
@@ -204,7 +202,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   body {
-    background-color: lightpink;
+    background-color: #ffffff;
   }
 
   .show-input-action,
@@ -219,4 +217,3 @@ body {
 }
 
 
-/* happy coding!! */
